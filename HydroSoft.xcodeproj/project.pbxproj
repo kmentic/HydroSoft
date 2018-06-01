@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E885F120C159E100721012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E885F020C159E100721012 /* AppDelegate.swift */; };
+		84E885F320C159E100721012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E885F220C159E100721012 /* ViewController.swift */; };
+		84E885F620C159E100721012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E885F420C159E100721012 /* Main.storyboard */; };
+		84E885F820C159E200721012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E885F720C159E200721012 /* Assets.xcassets */; };
+		84E885FB20C159E200721012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E885F920C159E200721012 /* LaunchScreen.storyboard */; };
+		84E8860620C159E200721012 /* HydroSoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8860520C159E200721012 /* HydroSoftTests.swift */; };
+		84E8861120C159E200721012 /* HydroSoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8861020C159E200721012 /* HydroSoftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E8860220C159E200721012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E885E520C159E100721012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E885EC20C159E100721012;
+			remoteInfo = HydroSoft;
+		};
+		84E8860D20C159E200721012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E885E520C159E100721012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E885EC20C159E100721012;
+			remoteInfo = HydroSoft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E885ED20C159E100721012 /* HydroSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydroSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E885F020C159E100721012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E885F220C159E100721012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84E885F520C159E100721012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E885F720C159E200721012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E885FA20C159E200721012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E885FC20C159E200721012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E8860120C159E200721012 /* HydroSoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydroSoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E8860520C159E200721012 /* HydroSoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroSoftTests.swift; sourceTree = "<group>"; };
+		84E8860720C159E200721012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E8860C20C159E200721012 /* HydroSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydroSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E8861020C159E200721012 /* HydroSoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroSoftUITests.swift; sourceTree = "<group>"; };
+		84E8861220C159E200721012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E885EA20C159E100721012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E885FE20C159E200721012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E8860920C159E200721012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E885E420C159E100721012 = {
+			isa = PBXGroup;
+			children = (
+				84E885EF20C159E100721012 /* HydroSoft */,
+				84E8860420C159E200721012 /* HydroSoftTests */,
+				84E8860F20C159E200721012 /* HydroSoftUITests */,
+				84E885EE20C159E100721012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E885EE20C159E100721012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E885ED20C159E100721012 /* HydroSoft.app */,
+				84E8860120C159E200721012 /* HydroSoftTests.xctest */,
+				84E8860C20C159E200721012 /* HydroSoftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E885EF20C159E100721012 /* HydroSoft */ = {
+			isa = PBXGroup;
+			children = (
+				84E885F020C159E100721012 /* AppDelegate.swift */,
+				84E885F220C159E100721012 /* ViewController.swift */,
+				84E885F420C159E100721012 /* Main.storyboard */,
+				84E885F720C159E200721012 /* Assets.xcassets */,
+				84E885F920C159E200721012 /* LaunchScreen.storyboard */,
+				84E885FC20C159E200721012 /* Info.plist */,
+			);
+			path = HydroSoft;
+			sourceTree = "<group>";
+		};
+		84E8860420C159E200721012 /* HydroSoftTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E8860520C159E200721012 /* HydroSoftTests.swift */,
+				84E8860720C159E200721012 /* Info.plist */,
+			);
+			path = HydroSoftTests;
+			sourceTree = "<group>";
+		};
+		84E8860F20C159E200721012 /* HydroSoftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E8861020C159E200721012 /* HydroSoftUITests.swift */,
+				84E8861220C159E200721012 /* Info.plist */,
+			);
+			path = HydroSoftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E885EC20C159E100721012 /* HydroSoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E8861520C159E200721012 /* Build configuration list for PBXNativeTarget "HydroSoft" */;
+			buildPhases = (
+				84E885E920C159E100721012 /* Sources */,
+				84E885EA20C159E100721012 /* Frameworks */,
+				84E885EB20C159E100721012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydroSoft;
+			productName = HydroSoft;
+			productReference = 84E885ED20C159E100721012 /* HydroSoft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E8860020C159E200721012 /* HydroSoftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E8861820C159E200721012 /* Build configuration list for PBXNativeTarget "HydroSoftTests" */;
+			buildPhases = (
+				84E885FD20C159E200721012 /* Sources */,
+				84E885FE20C159E200721012 /* Frameworks */,
+				84E885FF20C159E200721012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E8860320C159E200721012 /* PBXTargetDependency */,
+			);
+			name = HydroSoftTests;
+			productName = HydroSoftTests;
+			productReference = 84E8860120C159E200721012 /* HydroSoftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E8860B20C159E200721012 /* HydroSoftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E8861B20C159E200721012 /* Build configuration list for PBXNativeTarget "HydroSoftUITests" */;
+			buildPhases = (
+				84E8860820C159E200721012 /* Sources */,
+				84E8860920C159E200721012 /* Frameworks */,
+				84E8860A20C159E200721012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E8860E20C159E200721012 /* PBXTargetDependency */,
+			);
+			name = HydroSoftUITests;
+			productName = HydroSoftUITests;
+			productReference = 84E8860C20C159E200721012 /* HydroSoftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E885E520C159E100721012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Filip Kment";
+				TargetAttributes = {
+					84E885EC20C159E100721012 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					84E8860020C159E200721012 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 84E885EC20C159E100721012;
+					};
+					84E8860B20C159E200721012 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 84E885EC20C159E100721012;
+					};
+				};
+			};
+			buildConfigurationList = 84E885E820C159E100721012 /* Build configuration list for PBXProject "HydroSoft" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E885E420C159E100721012;
+			productRefGroup = 84E885EE20C159E100721012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E885EC20C159E100721012 /* HydroSoft */,
+				84E8860020C159E200721012 /* HydroSoftTests */,
+				84E8860B20C159E200721012 /* HydroSoftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E885EB20C159E100721012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E885FB20C159E200721012 /* LaunchScreen.storyboard in Resources */,
+				84E885F820C159E200721012 /* Assets.xcassets in Resources */,
+				84E885F620C159E100721012 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E885FF20C159E200721012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E8860A20C159E200721012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E885E920C159E100721012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E885F320C159E100721012 /* ViewController.swift in Sources */,
+				84E885F120C159E100721012 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E885FD20C159E200721012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E8860620C159E200721012 /* HydroSoftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E8860820C159E200721012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E8861120C159E200721012 /* HydroSoftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E8860320C159E200721012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E885EC20C159E100721012 /* HydroSoft */;
+			targetProxy = 84E8860220C159E200721012 /* PBXContainerItemProxy */;
+		};
+		84E8860E20C159E200721012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E885EC20C159E100721012 /* HydroSoft */;
+			targetProxy = 84E8860D20C159E200721012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E885F420C159E100721012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E885F520C159E100721012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E885F920C159E200721012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E885FA20C159E200721012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E8861320C159E200721012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E8861420C159E200721012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E8861620C159E200721012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HydroSoft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E8861720C159E200721012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HydroSoft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E8861920C159E200721012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HydroSoftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroSoft.app/HydroSoft";
+			};
+			name = Debug;
+		};
+		84E8861A20C159E200721012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HydroSoftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroSoft.app/HydroSoft";
+			};
+			name = Release;
+		};
+		84E8861C20C159E200721012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HydroSoftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydroSoft;
+			};
+			name = Debug;
+		};
+		84E8861D20C159E200721012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HydroSoftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydroSoft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E885E820C159E100721012 /* Build configuration list for PBXProject "HydroSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E8861320C159E200721012 /* Debug */,
+				84E8861420C159E200721012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E8861520C159E200721012 /* Build configuration list for PBXNativeTarget "HydroSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E8861620C159E200721012 /* Debug */,
+				84E8861720C159E200721012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E8861820C159E200721012 /* Build configuration list for PBXNativeTarget "HydroSoftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E8861920C159E200721012 /* Debug */,
+				84E8861A20C159E200721012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E8861B20C159E200721012 /* Build configuration list for PBXNativeTarget "HydroSoftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E8861C20C159E200721012 /* Debug */,
+				84E8861D20C159E200721012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E885E520C159E100721012 /* Project object */;
+}
