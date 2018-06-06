@@ -1,0 +1,6 @@
+framework module Pods_HydroSoft {
+  umbrella header "Pods-HydroSoft-umbrella.h"
+
+  export *
+  module * { export * }
+}

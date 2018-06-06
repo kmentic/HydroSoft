@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14A09C9186630CA00B2E79B3 /* Pods_HydroSoftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A79F761FC346C23AE91C279 /* Pods_HydroSoftUITests.framework */; };
+		32FCDC45893306FA3AF5D4E7 /* Pods_HydroSoft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D322338C844884456EACDA /* Pods_HydroSoft.framework */; };
+		62968F6156718AF411A60136 /* Pods_HydroSoftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5D94E34ACCF29C2A424F5A /* Pods_HydroSoftTests.framework */; };
+		8456656220C7F56F00BD7F57 /* SelectImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456656020C7F56F00BD7F57 /* SelectImageCell.swift */; };
+		8456656320C7F56F00BD7F57 /* SelectImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456656120C7F56F00BD7F57 /* SelectImageCell.xib */; };
+		84A2C05220C6CB7200CF6B65 /* SaveSendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A2C05020C6CB7200CF6B65 /* SaveSendCell.swift */; };
+		84A2C05320C6CB7200CF6B65 /* SaveSendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A2C05120C6CB7200CF6B65 /* SaveSendCell.xib */; };
+		84A2C05620C6CCA000CF6B65 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A2C05420C6CCA000CF6B65 /* BasicCell.swift */; };
+		84A2C05720C6CCA000CF6B65 /* BasicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A2C05520C6CCA000CF6B65 /* BasicCell.xib */; };
 		84E885F120C159E100721012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E885F020C159E100721012 /* AppDelegate.swift */; };
 		84E885F320C159E100721012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E885F220C159E100721012 /* ViewController.swift */; };
 		84E885F620C159E100721012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E885F420C159E100721012 /* Main.storyboard */; };
@@ -14,6 +23,18 @@
 		84E885FB20C159E200721012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E885F920C159E200721012 /* LaunchScreen.storyboard */; };
 		84E8860620C159E200721012 /* HydroSoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8860520C159E200721012 /* HydroSoftTests.swift */; };
 		84E8861120C159E200721012 /* HydroSoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8861020C159E200721012 /* HydroSoftUITests.swift */; };
+		84E8862320C15CE800721012 /* UITableViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8862220C15CE800721012 /* UITableViewCustom.swift */; };
+		84E8862920C1669F00721012 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8862820C1669F00721012 /* RecordViewController.swift */; };
+		84E8862C20C17A1900721012 /* RecordCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8862A20C17A1900721012 /* RecordCells.swift */; };
+		84E8862D20C17A1900721012 /* RecordCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E8862B20C17A1900721012 /* RecordCells.xib */; };
+		84E8863020C17AB900721012 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8862E20C17AB900721012 /* ImageCell.swift */; };
+		84E8863120C17AB900721012 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E8862F20C17AB900721012 /* ImageCell.xib */; };
+		84E8863420C17AF200721012 /* DeleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8863220C17AF200721012 /* DeleteCell.swift */; };
+		84E8863520C17AF200721012 /* DeleteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E8863320C17AF200721012 /* DeleteCell.xib */; };
+		84E8863820C17B1600721012 /* SaveCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8863620C17B1600721012 /* SaveCells.swift */; };
+		84E8863920C17B1600721012 /* SaveCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E8863720C17B1600721012 /* SaveCells.xib */; };
+		84E8863F20C181C700721012 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8863E20C181C700721012 /* Service.swift */; };
+		84E8864120C181D600721012 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8864020C181D600721012 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +55,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014A47C9B0F12571BC56D287 /* Pods-HydroSoftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroSoftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HydroSoftTests/Pods-HydroSoftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		12D322338C844884456EACDA /* Pods_HydroSoft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydroSoft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		180AFDC37A26A97AB44DCAB1 /* Pods-HydroSoftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroSoftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HydroSoftUITests/Pods-HydroSoftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2B0E6AFBCCEFC78AF9F466 /* Pods-HydroSoft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroSoft.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HydroSoft/Pods-HydroSoft.debug.xcconfig"; sourceTree = "<group>"; };
+		43A81F8899BF727F202CE768 /* Pods-HydroSoftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroSoftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HydroSoftTests/Pods-HydroSoftTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B849B915CF29C9930FB3BC5 /* Pods-HydroSoftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroSoftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HydroSoftUITests/Pods-HydroSoftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A79F761FC346C23AE91C279 /* Pods_HydroSoftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydroSoftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8456656020C7F56F00BD7F57 /* SelectImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageCell.swift; sourceTree = "<group>"; };
+		8456656120C7F56F00BD7F57 /* SelectImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectImageCell.xib; sourceTree = "<group>"; };
+		84A2C05020C6CB7200CF6B65 /* SaveSendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSendCell.swift; sourceTree = "<group>"; };
+		84A2C05120C6CB7200CF6B65 /* SaveSendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaveSendCell.xib; sourceTree = "<group>"; };
+		84A2C05420C6CCA000CF6B65 /* BasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		84A2C05520C6CCA000CF6B65 /* BasicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicCell.xib; sourceTree = "<group>"; };
 		84E885ED20C159E100721012 /* HydroSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydroSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E885F020C159E100721012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E885F220C159E100721012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +81,20 @@
 		84E8860C20C159E200721012 /* HydroSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydroSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E8861020C159E200721012 /* HydroSoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroSoftUITests.swift; sourceTree = "<group>"; };
 		84E8861220C159E200721012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E8862220C15CE800721012 /* UITableViewCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCustom.swift; sourceTree = "<group>"; };
+		84E8862820C1669F00721012 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		84E8862A20C17A1900721012 /* RecordCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCells.swift; sourceTree = "<group>"; };
+		84E8862B20C17A1900721012 /* RecordCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordCells.xib; sourceTree = "<group>"; };
+		84E8862E20C17AB900721012 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		84E8862F20C17AB900721012 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		84E8863220C17AF200721012 /* DeleteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCell.swift; sourceTree = "<group>"; };
+		84E8863320C17AF200721012 /* DeleteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteCell.xib; sourceTree = "<group>"; };
+		84E8863620C17B1600721012 /* SaveCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCells.swift; sourceTree = "<group>"; };
+		84E8863720C17B1600721012 /* SaveCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaveCells.xib; sourceTree = "<group>"; };
+		84E8863E20C181C700721012 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		84E8864020C181D600721012 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8CA1675FBE93E91564AF04C1 /* Pods-HydroSoft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroSoft.release.xcconfig"; path = "Pods/Target Support Files/Pods-HydroSoft/Pods-HydroSoft.release.xcconfig"; sourceTree = "<group>"; };
+		DF5D94E34ACCF29C2A424F5A /* Pods_HydroSoftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydroSoftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FCDC45893306FA3AF5D4E7 /* Pods_HydroSoft.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62968F6156718AF411A60136 /* Pods_HydroSoftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +118,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A09C9186630CA00B2E79B3 /* Pods_HydroSoftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		565F5BCD31756B7A07B75CC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12D322338C844884456EACDA /* Pods_HydroSoft.framework */,
+				DF5D94E34ACCF29C2A424F5A /* Pods_HydroSoftTests.framework */,
+				6A79F761FC346C23AE91C279 /* Pods_HydroSoftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84E885E420C159E100721012 = {
 			isa = PBXGroup;
 			children = (
+				84E8862120C15BCA00721012 /* Controller */,
+				84E8862020C15BBA00721012 /* View */,
+				84E8861F20C15BB100721012 /* Model */,
+				84E8861E20C15B9E00721012 /* Service */,
 				84E885EF20C159E100721012 /* HydroSoft */,
 				84E8860420C159E200721012 /* HydroSoftTests */,
 				84E8860F20C159E200721012 /* HydroSoftUITests */,
 				84E885EE20C159E100721012 /* Products */,
+				A0AD36D34D02DC877A524296 /* Pods */,
+				565F5BCD31756B7A07B75CC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +164,8 @@
 		84E885EF20C159E100721012 /* HydroSoft */ = {
 			isa = PBXGroup;
 			children = (
+				84E8862220C15CE800721012 /* UITableViewCustom.swift */,
 				84E885F020C159E100721012 /* AppDelegate.swift */,
-				84E885F220C159E100721012 /* ViewController.swift */,
-				84E885F420C159E100721012 /* Main.storyboard */,
 				84E885F720C159E200721012 /* Assets.xcassets */,
 				84E885F920C159E200721012 /* LaunchScreen.storyboard */,
 				84E885FC20C159E200721012 /* Info.plist */,
@@ -125,6 +191,66 @@
 			path = HydroSoftUITests;
 			sourceTree = "<group>";
 		};
+		84E8861E20C15B9E00721012 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				84E8863E20C181C700721012 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		84E8861F20C15BB100721012 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84E8864020C181D600721012 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84E8862020C15BBA00721012 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84E8862A20C17A1900721012 /* RecordCells.swift */,
+				84E8862B20C17A1900721012 /* RecordCells.xib */,
+				84E8862E20C17AB900721012 /* ImageCell.swift */,
+				84E8862F20C17AB900721012 /* ImageCell.xib */,
+				84E8863220C17AF200721012 /* DeleteCell.swift */,
+				84E8863320C17AF200721012 /* DeleteCell.xib */,
+				84E8863620C17B1600721012 /* SaveCells.swift */,
+				84E8863720C17B1600721012 /* SaveCells.xib */,
+				84A2C05020C6CB7200CF6B65 /* SaveSendCell.swift */,
+				84A2C05120C6CB7200CF6B65 /* SaveSendCell.xib */,
+				84A2C05420C6CCA000CF6B65 /* BasicCell.swift */,
+				84A2C05520C6CCA000CF6B65 /* BasicCell.xib */,
+				8456656020C7F56F00BD7F57 /* SelectImageCell.swift */,
+				8456656120C7F56F00BD7F57 /* SelectImageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84E8862120C15BCA00721012 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84E885F420C159E100721012 /* Main.storyboard */,
+				84E885F220C159E100721012 /* ViewController.swift */,
+				84E8862820C1669F00721012 /* RecordViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A0AD36D34D02DC877A524296 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B0E6AFBCCEFC78AF9F466 /* Pods-HydroSoft.debug.xcconfig */,
+				8CA1675FBE93E91564AF04C1 /* Pods-HydroSoft.release.xcconfig */,
+				014A47C9B0F12571BC56D287 /* Pods-HydroSoftTests.debug.xcconfig */,
+				43A81F8899BF727F202CE768 /* Pods-HydroSoftTests.release.xcconfig */,
+				180AFDC37A26A97AB44DCAB1 /* Pods-HydroSoftUITests.debug.xcconfig */,
+				5B849B915CF29C9930FB3BC5 /* Pods-HydroSoftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E8861520C159E200721012 /* Build configuration list for PBXNativeTarget "HydroSoft" */;
 			buildPhases = (
+				D7BBDD4E0C0229B71E22D51A /* [CP] Check Pods Manifest.lock */,
 				84E885E920C159E100721012 /* Sources */,
 				84E885EA20C159E100721012 /* Frameworks */,
 				84E885EB20C159E100721012 /* Resources */,
+				3BD434CCCB096C3B9A5FD313 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E8861820C159E200721012 /* Build configuration list for PBXNativeTarget "HydroSoftTests" */;
 			buildPhases = (
+				C46FA63E83E9B8C763392358 /* [CP] Check Pods Manifest.lock */,
 				84E885FD20C159E200721012 /* Sources */,
 				84E885FE20C159E200721012 /* Frameworks */,
 				84E885FF20C159E200721012 /* Resources */,
@@ -167,6 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E8861B20C159E200721012 /* Build configuration list for PBXNativeTarget "HydroSoftUITests" */;
 			buildPhases = (
+				58471192253EDA17BE2C4EBE /* [CP] Check Pods Manifest.lock */,
 				84E8860820C159E200721012 /* Sources */,
 				84E8860920C159E200721012 /* Frameworks */,
 				84E8860A20C159E200721012 /* Resources */,
@@ -229,9 +359,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E8863920C17B1600721012 /* SaveCells.xib in Resources */,
+				8456656320C7F56F00BD7F57 /* SelectImageCell.xib in Resources */,
 				84E885FB20C159E200721012 /* LaunchScreen.storyboard in Resources */,
+				84A2C05320C6CB7200CF6B65 /* SaveSendCell.xib in Resources */,
+				84E8862D20C17A1900721012 /* RecordCells.xib in Resources */,
+				84A2C05720C6CCA000CF6B65 /* BasicCell.xib in Resources */,
+				84E8863120C17AB900721012 /* ImageCell.xib in Resources */,
 				84E885F820C159E200721012 /* Assets.xcassets in Resources */,
 				84E885F620C159E100721012 /* Main.storyboard in Resources */,
+				84E8863520C17AF200721012 /* DeleteCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +388,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BD434CCCB096C3B9A5FD313 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HydroSoft/Pods-HydroSoft-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HydroSoft/Pods-HydroSoft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58471192253EDA17BE2C4EBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HydroSoftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C46FA63E83E9B8C763392358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HydroSoftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BBDD4E0C0229B71E22D51A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HydroSoft-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84E885E920C159E100721012 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E8862C20C17A1900721012 /* RecordCells.swift in Sources */,
+				84E8862320C15CE800721012 /* UITableViewCustom.swift in Sources */,
+				84E8862920C1669F00721012 /* RecordViewController.swift in Sources */,
 				84E885F320C159E100721012 /* ViewController.swift in Sources */,
+				84A2C05620C6CCA000CF6B65 /* BasicCell.swift in Sources */,
+				84E8863020C17AB900721012 /* ImageCell.swift in Sources */,
+				84E8864120C181D600721012 /* Post.swift in Sources */,
+				8456656220C7F56F00BD7F57 /* SelectImageCell.swift in Sources */,
+				84E8863F20C181C700721012 /* Service.swift in Sources */,
+				84E8863820C17B1600721012 /* SaveCells.swift in Sources */,
+				84A2C05220C6CB7200CF6B65 /* SaveSendCell.swift in Sources */,
+				84E8863420C17AF200721012 /* DeleteCell.swift in Sources */,
 				84E885F120C159E100721012 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,14 +657,12 @@
 		};
 		84E8861620C159E200721012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2B0E6AFBCCEFC78AF9F466 /* Pods-HydroSoft.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HydroSoft/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,14 +672,12 @@
 		};
 		84E8861720C159E200721012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA1675FBE93E91564AF04C1 /* Pods-HydroSoft.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HydroSoft/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -462,16 +687,13 @@
 		};
 		84E8861920C159E200721012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014A47C9B0F12571BC56D287 /* Pods-HydroSoftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HydroSoftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,16 +704,13 @@
 		};
 		84E8861A20C159E200721012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A81F8899BF727F202CE768 /* Pods-HydroSoftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HydroSoftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -502,15 +721,12 @@
 		};
 		84E8861C20C159E200721012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180AFDC37A26A97AB44DCAB1 /* Pods-HydroSoftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HydroSoftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -521,15 +737,12 @@
 		};
 		84E8861D20C159E200721012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B849B915CF29C9930FB3BC5 /* Pods-HydroSoftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HydroSoftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FilipKment.HydroSoftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vwS-x2-Rz4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="3Am-tC-bfe">
+            <objects>
+                <navigationController id="vwS-x2-Rz4" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="f5N-lJ-V57">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ifM-kt-yIv" kind="relationship" relationship="rootViewController" id="oQf-vS-EPd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jid-x2-V9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="328"/>
+        </scene>
+        <!--Record View Controller-->
+        <scene sceneID="PDc-KM-HiC">
+            <objects>
+                <viewController id="EMP-ds-srL" customClass="RecordViewController" customModule="HydroSoft" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OQF-BS-2eG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3jF-mJ-aJT">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3jF-mJ-aJT" firstAttribute="leading" secondItem="IDF-vx-z12" secondAttribute="leading" id="7Vd-hr-h90"/>
+                            <constraint firstItem="3jF-mJ-aJT" firstAttribute="top" secondItem="IDF-vx-z12" secondAttribute="top" id="FPn-uD-c2h"/>
+                            <constraint firstItem="3jF-mJ-aJT" firstAttribute="trailing" secondItem="IDF-vx-z12" secondAttribute="trailing" id="mU1-3i-uEb"/>
+                            <constraint firstItem="3jF-mJ-aJT" firstAttribute="bottom" secondItem="IDF-vx-z12" secondAttribute="bottom" id="wde-Dw-Uav"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IDF-vx-z12"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KIC-Rj-se6"/>
+                    <connections>
+                        <outlet property="tableView" destination="3jF-mJ-aJT" id="sCP-UT-NLa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4V6-6E-GP5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.5999999999999" y="327.88605697151428"/>
+        </scene>
+        <!--HV | RACI-->
+        <scene sceneID="0Tt-3c-hoI">
+            <objects>
+                <viewController id="ifM-kt-yIv" customClass="ViewController" customModule="HydroSoft" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NZi-Of-7qG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eEl-6Z-mqv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eEl-6Z-mqv" firstAttribute="leading" secondItem="6Ee-Yk-JCl" secondAttribute="leading" id="J1G-dC-Eeq"/>
+                            <constraint firstItem="eEl-6Z-mqv" firstAttribute="bottom" secondItem="6Ee-Yk-JCl" secondAttribute="bottom" id="SXk-g1-F5N"/>
+                            <constraint firstItem="eEl-6Z-mqv" firstAttribute="trailing" secondItem="6Ee-Yk-JCl" secondAttribute="trailing" id="UQM-he-qVn"/>
+                            <constraint firstItem="eEl-6Z-mqv" firstAttribute="top" secondItem="NZi-Of-7qG" secondAttribute="top" id="Y4q-wi-ve1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Ee-Yk-JCl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HV | RACI" id="jrd-nY-Fng">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="8ld-BO-ik6">
+                            <connections>
+                                <action selector="addBtnPressed:" destination="ifM-kt-yIv" id="aFR-5p-ws9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="eEl-6Z-mqv" id="l3V-Zm-CO7"/>
+                        <segue destination="EMP-ds-srL" kind="show" identifier="ShowRecord" id="4Ts-4w-smU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u7b-R8-p3k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988" y="327.88605697151428"/>
+        </scene>
+    </scenes>
+</document>

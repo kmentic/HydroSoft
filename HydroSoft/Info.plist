@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Hello we need your images</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>A taky fotečky</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>A davaj fotky</string>
 </dict>
 </plist>
