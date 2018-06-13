@@ -25,13 +25,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         setupTableView()
-//        let post1 = Post(name: "Hovno", imageName: "prdel", note: "sračka", image: #imageLiteral(resourceName: "picture-3"))
-//        posts.append(post1)
-        tableView.reloadData()
 
-//        savePosts()
         loadPosts()
-      
+    
     }
     
     func setupTableView(){
@@ -52,12 +48,25 @@ class ViewController: UIViewController {
         userDefaults.synchronize
     }
     
+    func getData() {
+        Service.sharedInstance.getRecords { (posts) in
+            for post in posts {
+                self.posts = self.posts.filter({$0.id != post.id})
+                self.posts.append(post)
+            }
+            self.tableView.reloadData()
+        }
+    }
+    
     func loadPosts() {
         if let decoded  = userDefaults.object(forKey: "posts") as? Data {
             if let decodedPosts = NSKeyedUnarchiver.unarchiveObject(with: decoded) as? [Post] {
                 posts = decodedPosts
+                getData()
                 tableView.reloadData()
             }
+        } else {
+            getData()
         }
 
     }
@@ -86,9 +95,11 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: RecordVCProtocol {
+    func saveAndSend(post: Post) {
+        Service.sharedInstance.upload(Record: post)
+    }
+    
     func edited(post: Post) {
-        print(post.name)
-        
         if let index = posts.index(where: { $0.id == post.id}) {
             posts.remove(at: index)
             posts.append(post)
@@ -96,7 +107,6 @@ extension ViewController: RecordVCProtocol {
             savePosts()
             tableView.reloadData()
         }
-        
     }
     
     func saved(post: Post) {
@@ -105,7 +115,6 @@ extension ViewController: RecordVCProtocol {
         savePosts()
         tableView.reloadData()
     }
-    
     
     
 }

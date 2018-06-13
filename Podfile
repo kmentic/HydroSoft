@@ -11,6 +11,8 @@ target 'HydroSoft' do
  pod 'CodableAlamofire'
  pod 'SwiftyJSON'
  pod 'ImagePicker'
+ pod 'AlamofireSwiftyJSON'
+ pod 'AlamofireImage', '~> 3.3'
   target 'HydroSoftTests' do
     inherit! :search_paths
     # Pods for testing

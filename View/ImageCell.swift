@@ -7,6 +7,14 @@
 //
 
 import UIKit
+import AlamofireImage
+
+let imageDownloader = ImageDownloader(
+    configuration: ImageDownloader.defaultURLSessionConfiguration(),
+    downloadPrioritization: .fifo,
+    maximumActiveDownloads: 4,
+    imageCache: AutoPurgingImageCache()
+)
 
 class ImageCell: UITableViewCell {
 
@@ -21,8 +29,17 @@ class ImageCell: UITableViewCell {
         
     }
     
-    func configureCell(image: UIImage) {
-        imageDetail.image = image
+    func configureCell(post: Post) {
+        print(post.imageUrl)
+        
+        if  post.imageUrl == "" {
+            imageDetail.image = post.image
+        } else {
+            Service.sharedInstance.downloadImageAndPutItToCache(url: post.imageUrl) { (image) in
+                self.imageDetail.image = image
+            }
+        }
+        
     }
     
     

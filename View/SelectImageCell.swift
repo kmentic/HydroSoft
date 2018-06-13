@@ -37,7 +37,6 @@ class SelectImageCell: UITableViewCell {
 
     
     @objc func handleTapOnTakeImage(_ sender: UITapGestureRecognizer) {
-        print("Hello World")
         delegate?.takePhoto()
     }
 }

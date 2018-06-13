@@ -20,6 +20,7 @@ var PostToSend = Post(name: "...", imageName: "", note: "...", image: #imageLite
 protocol RecordVCProtocol {
     func saved(post: Post)
     func edited(post: Post)
+    func saveAndSend(post: Post)
 }
 
 class RecordViewController: UIViewController {
@@ -43,7 +44,6 @@ class RecordViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dump(post)
         setupTableView()
 
         if post == nil {
@@ -127,9 +127,9 @@ class RecordViewController: UIViewController {
                         cell.delegate = self
                         return cell
                     case .takeImage:
-                        if let image = selectedImage {
+                        if selectedImage != nil {
                             let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as ImageCell
-                            cell.configureCell(image: image)
+                            cell.configureCell(post: PostToSend)
                             return cell
                         } else {
                             let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as SelectImageCell
@@ -159,7 +159,7 @@ class RecordViewController: UIViewController {
                             return cell
                         case .image:
                             let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as ImageCell
-                            cell.configureCell(image: post.image)
+                            cell.configureCell(post: post)
                             return cell
                         case .save:
                             if post.uploaded {
@@ -240,7 +240,6 @@ class RecordViewController: UIViewController {
                     let toSend = Post(name: PostToSend.name, imageName: PostToSend.imageName, note: PostToSend.note, image: PostToSend.image, uploaded: false)
                     delegate?.saved(post: toSend)
                     self.navigationController?.popToRootViewController(animated: true)
-                    dump(toSend)
                 }
             }
             
@@ -248,8 +247,7 @@ class RecordViewController: UIViewController {
                 if let post = post {
                     post.name = PostToSend.name
                     post.note = PostToSend.note
-                    post.uploaded = true
-                    delegate?.edited(post: post)
+                    delegate?.saveAndSend(post: post)
                     self.navigationController?.popToRootViewController(animated: true)
                 }
             }

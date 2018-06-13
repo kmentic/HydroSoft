@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+import SwiftyJSON
+import AlamofireSwiftyJSON
 
 let formatter = DateFormatter()
 
@@ -19,6 +21,30 @@ extension Date {
         formatter.locale = Locale(identifier: "cs_US")
         return formatter.string(from: self)
     }
+    
+    func toIso() -> String {
+        return Formatter.iso8601.string(from: self)
+    }
+}
+
+extension String {
+    func fromIsoToDate() -> Date {
+        if let date = Formatter.iso8601.date(from: self)  {
+              return date // "2018-01-23 03:06:46 +0000\n"
+        } else {
+            print("Error while converting String \(self) to Date")
+            return Date()
+        }
+    }
+
+}
+
+extension Formatter {
+    static let iso8601: ISO8601DateFormatter = {
+        let formatter = ISO8601DateFormatter()
+        formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        return formatter
+    }()
 }
 
 class Post: NSObject, NSCoding {
@@ -28,6 +54,7 @@ class Post: NSObject, NSCoding {
     var note : String
     var imageName : String
     var id : String
+    var imageUrl : String = ""
     
     var uploaded = false
     var image : UIImage
@@ -47,6 +74,7 @@ class Post: NSObject, NSCoding {
 
     }
     
+    
     init(id: String, name: String, imageName: String, note: String, date: Date, uploaded: Bool, image: UIImage) {
         self.name = name
         self.date = date
@@ -57,7 +85,7 @@ class Post: NSObject, NSCoding {
         self.id = id
 
     }
-   
+    
     
     required convenience init(coder aDecoder: NSCoder) {
         let id = aDecoder.decodeObject(forKey: "id") as! String

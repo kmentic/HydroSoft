@@ -29,11 +29,17 @@ class RecordCells: UITableViewCell {
     }
     func configureCell(post: Post) {
         labelText.text = post.name
-        imageDetail.image = post.image
+      
         dateLbl.text = post.stringDate
         
-        dump(post)
-        
+        if  post.imageUrl == "" {
+            imageDetail.image = post.image
+        } else {
+            Service.sharedInstance.downloadImageAndPutItToCache(url: post.imageUrl) { (image) in
+                self.imageDetail.image = image
+            }
+        }
+
     }
     
 }

@@ -47,5 +47,10 @@
 	<string>A taky fotečky</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>A davaj fotky</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
