@@ -70,13 +70,15 @@ class Service  {
         }
     }
     
-    func upload(Record record: Post) {
+    typealias completitionHandler = () -> ()
+    
+    func upload(Record record: Post, completitonHandler: @escaping completitionHandler) {
         let url = "http://www.wmap.cz/ords/work/test/media/"
         if let imageData = UIImageJPEGRepresentation(record.image, 1.0) {
 
 //            let parameters : Parameters = ["data" : imageData, "content_type": "image/jpeg", "Content-Type" : "image/jpeg"]
         
-        let headers: HTTPHeaders = ["file_name": "Record9.jpg","content_type": "image/jpeg", "file_ds" : record.note,"file_date" : record.date.toIso(),"wgs_n" : "14.6689172","wgs_e" : "50.05245"]
+        let headers: HTTPHeaders = ["file_name": record.name,"content_type": "image/jpeg", "file_ds" : record.note,"file_date" : record.date.toIso(),"wgs_n" : "14.6689172","wgs_e" : "50.05245"]
 
 
             
@@ -84,7 +86,7 @@ class Service  {
 //                multipartFormData.appendBodyPart(fileURL: imagePathUrl!, name: "photo")
 //                multipart.append(imageData, withName: "data")
 //                    multipart.append(imageData, withName: "Record9.jpeg", mimeType: "image/jpeg")
-                multipart.append(imageData, withName: "Record9.jpeg", fileName: "Record9.jpeg", mimeType: "image/jpeg")
+                multipart.append(imageData, withName: record.name, fileName: record.name, mimeType: "image/jpeg")
             }, usingThreshold: 0, to: url, method: .post, headers: headers) { (result) in
                 switch result {
                 case .success(let upload, _, _):
@@ -97,7 +99,8 @@ class Service  {
                         
                         if let JSON = response.result.value {
                             print(JSON)
-                            
+                            completitonHandler()
+
                         }else{
                             print("Error")
                         }

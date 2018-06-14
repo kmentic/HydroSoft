@@ -42,11 +42,11 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSCameraUsageDescription</key>
-	<string>Hello we need your images</string>
+	<string>Prosíme o přístup k fotoaparátu fotografií abyste mohli fotku vyfotit.</string>
 	<key>NSAppleMusicUsageDescription</key>
-	<string>A taky fotečky</string>
+	<string>Prosíme o přístup ke knihovně fotografií abyste mohli fotku nahrát z galerie</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>A davaj fotky</string>
+	<string>Prosíme o přístup ke knihovně fotografií abyste mohli fotku nahrát z galerie</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

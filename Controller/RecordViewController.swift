@@ -232,12 +232,12 @@ class RecordViewController: UIViewController {
             
             if tableView.cellForRow(at: indexPath) is SaveCells {
                 if let post = post {
-                    post.name = PostToSend.name
+                    post.name = "\(PostToSend.name).jpg"
                     post.note = PostToSend.note
                     delegate?.edited(post: post)
                     self.navigationController?.popToRootViewController(animated: true)
                 } else {
-                    let toSend = Post(name: PostToSend.name, imageName: PostToSend.imageName, note: PostToSend.note, image: PostToSend.image, uploaded: false)
+                    let toSend = Post(name: "\(PostToSend.name).jpg", imageName: PostToSend.imageName, note: PostToSend.note, image: PostToSend.image, uploaded: false)
                     delegate?.saved(post: toSend)
                     self.navigationController?.popToRootViewController(animated: true)
                 }

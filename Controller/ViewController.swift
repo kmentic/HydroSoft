@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     func getData() {
         Service.sharedInstance.getRecords { (posts) in
             for post in posts {
-                self.posts = self.posts.filter({$0.id != post.id})
+                self.posts = self.posts.filter({$0.name != post.name})
                 self.posts.append(post)
             }
             self.tableView.reloadData()
@@ -96,7 +96,9 @@ class ViewController: UIViewController {
 
 extension ViewController: RecordVCProtocol {
     func saveAndSend(post: Post) {
-        Service.sharedInstance.upload(Record: post)
+        Service.sharedInstance.upload(Record: post) {
+            self.loadPosts()
+        }
     }
     
     func edited(post: Post) {
